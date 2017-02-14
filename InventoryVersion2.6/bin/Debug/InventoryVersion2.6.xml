@@ -1,0 +1,160 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+InventoryVersion2.6
+</name>
+</assembly>
+<members>
+<member name="T:InventoryVersion2._6.Database1DataSet2point6.InventorySheet1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:InventoryVersion2._6.Database1DataSet2point6.Table1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:InventoryVersion2._6.Database1DataSet2point6.InventorySheet1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:InventoryVersion2._6.Database1DataSet2point6.Table1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:InventoryVersion2._6.Database1DataSet2point6.InventorySheet1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:InventoryVersion2._6.Database1DataSet2point6.Table1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:InventoryVersion2._6.Database1DataSet2point6">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:InventoryVersion2._6.Database1DataSet2point6TableAdapters.InventorySheet1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:InventoryVersion2._6.Database1DataSet2point6TableAdapters.Table1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:InventoryVersion2._6.Database1DataSet2point6TableAdapters.TableAdapterManager.UpdateUpdatedRows(InventoryVersion2._6.Database1DataSet2point6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:InventoryVersion2._6.Database1DataSet2point6TableAdapters.TableAdapterManager.UpdateInsertedRows(InventoryVersion2._6.Database1DataSet2point6,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:InventoryVersion2._6.Database1DataSet2point6TableAdapters.TableAdapterManager.UpdateDeletedRows(InventoryVersion2._6.Database1DataSet2point6,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:InventoryVersion2._6.Database1DataSet2point6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:InventoryVersion2._6.Database1DataSet2point6TableAdapters.TableAdapterManager.UpdateAll(InventoryVersion2._6.Database1DataSet2point6)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:InventoryVersion2._6.Database1DataSet2point6TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:InventoryVersion2._6.Database1DataSet2point6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:InventoryVersion2._6.Database1DataSet2point6TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:InventoryVersion2._6.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:InventoryVersion2._6.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:InventoryVersion2._6.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:InventoryVersion2._6.Database1DataSet.InventorySheet1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:InventoryVersion2._6.Database1DataSet.Table1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:InventoryVersion2._6.Database1DataSet.InventorySheet1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:InventoryVersion2._6.Database1DataSet.Table1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:InventoryVersion2._6.Database1DataSet.InventorySheet1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:InventoryVersion2._6.Database1DataSet.Table1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:InventoryVersion2._6.Database1DataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:InventoryVersion2._6.Database1DataSetTableAdapters.InventorySheet1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:InventoryVersion2._6.Database1DataSetTableAdapters.Table1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:InventoryVersion2._6.Database1DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(InventoryVersion2._6.Database1DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:InventoryVersion2._6.Database1DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(InventoryVersion2._6.Database1DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:InventoryVersion2._6.Database1DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(InventoryVersion2._6.Database1DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:InventoryVersion2._6.Database1DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:InventoryVersion2._6.Database1DataSetTableAdapters.TableAdapterManager.UpdateAll(InventoryVersion2._6.Database1DataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:InventoryVersion2._6.Database1DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:InventoryVersion2._6.Database1DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:InventoryVersion2._6.Database1DataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
